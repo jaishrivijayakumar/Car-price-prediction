@@ -1,10 +1,10 @@
-# 🚗 Car Price Prediction
+# Car Price Prediction
 
 A machine learning project to predict car prices based on key vehicle attributes using regression models.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project builds an end-to-end ML regression pipeline to predict car prices based on vehicle attributes such as make, model, year, engine size, mileage, fuel type, and transmission. The dataset contains 1000 records across 5 car brands — Honda, Ford, BMW, Audi, and Toyota — with prices as the continuous target variable.
 The pipeline covers data preprocessing, categorical encoding, outlier treatment, feature scaling, and selection, followed by training and comparison of 7 regression models evaluated using R² score.
@@ -18,15 +18,15 @@ The pipeline covers data preprocessing, categorical encoding, outlier treatment,
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
-📦 car-price-prediction  
- ┣ 📓 Car_price_prediction.ipynb — Full ML pipeline notebook  
- ┗ 📄 Car_Price_Prediction.csv — Dataset (1000 records)
+car-price-prediction  
+ ┣ Car_price_prediction.ipynb — Full ML pipeline notebook  
+ ┗ Car_Price_Prediction.csv — Dataset (1000 records)
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Feature | Description |
 |---|---|
@@ -46,7 +46,7 @@ The pipeline covers data preprocessing, categorical encoding, outlier treatment,
 
 ---
 
-## 🔧 ML Pipeline
+## ML Pipeline
 
 ### 1. Data Preprocessing
 - Null value imputation (mean for numerical, mode for categorical)
@@ -77,7 +77,7 @@ The pipeline covers data preprocessing, categorical encoding, outlier treatment,
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Jaishri Vijayakumar**  
 B.Sc. Data Science | PSGR Krishnammal College for Women, Coimbatore  
